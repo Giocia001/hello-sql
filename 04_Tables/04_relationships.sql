@@ -38,7 +38,7 @@ ADD CONSTRAINT fk_companies
 FOREIGN KEY(company_id) REFERENCES companies(company_id)
 
 /*
-Relación N:M (muchos a muchos)
+Relación N:N (muchos a muchos)
 Lección 15.3: https://youtu.be/OuJerKzV5T0?t=14313
 Relación que indica que un un registro en la tabla A puede relacionarse
 con varios registros en la tabla B y viceversa.
